@@ -9,7 +9,7 @@ class EmailParser
       rows = csv_data.split("\n")
       email_addresses = rows.collect do |row|
       data = row.split(", ")
-      email = data[0]
+      email = data[]
     end
   end
 end
