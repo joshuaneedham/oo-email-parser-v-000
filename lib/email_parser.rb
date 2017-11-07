@@ -7,7 +7,7 @@ class EmailParser
   @@all = []
 
     def self.parse(email)
-      @email = email
+      @email = EmailParser.new
       @@all << email
     #   rows = csv_data.split("\n")
     #   email_addresses = rows.collect do |row|
