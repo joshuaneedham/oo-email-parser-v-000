@@ -17,3 +17,4 @@ class EmailParser
   end
   people
 end
+end
