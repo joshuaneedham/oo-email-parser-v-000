@@ -15,6 +15,6 @@ class EmailParser
       email_address.email = email
       email_address
     end
-    people
+    email_address
   end
 end
