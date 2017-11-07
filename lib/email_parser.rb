@@ -6,9 +6,10 @@ class EmailParser
   attr_accessor :email
   @@all = []
 
-    def self.parse(email)
-      @email = EmailParser.new
+    def self.parse
+      email = EmailParser.new
       @@all << email
+      email
     #   rows = csv_data.split("\n")
     #   email_addresses = rows.collect do |row|
     #   data = row.split(", ")
