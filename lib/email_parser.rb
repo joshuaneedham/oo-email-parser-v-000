@@ -10,7 +10,7 @@ class EmailParser
     #   email_addresses = rows.collect do |row|
     #   data = row.split(", ")
     #   email = data[0]
-    # 
+    #
     #   person = self.new
     #   person.email = email
     #   person
